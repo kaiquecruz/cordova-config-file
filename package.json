@@ -1,0 +1,33 @@
+{
+    "name": "cordova-config-file",
+    "version": "1.0.0",
+    "description": "Configs for config.xml",
+    "cordova": {
+      "id": "cordova-config-file",
+      "platforms": [
+        "android"
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kaiquecruz/cordova-config-file.git"
+    },
+    "keywords": [
+      "onesignal",
+      "config",
+      "ecosystem:cordova",
+      "cordova-android"
+    ],
+    "engines": [
+      {
+        "name": "cordova",
+        "version": ">=3.0.0"
+      }
+    ],
+    "author": "",
+    "license": "BSD",
+    "bugs": {
+      "url": "https://github.com/kaiquecruz/cordova-config-file/issues"
+    },
+    "homepage": "https://github.com/kaiquecruz/cordova-config-file"
+  }

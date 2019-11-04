@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-config-file" version="1.0.0"> 
+
+    <name>Configs for config.xml</name> 
+    <description>Configs for config.xml</description> 
+    <license>MIT</license> 
+
+    <engines> 
+        <engine name="cordova" version=">=3.0.0" /> 
+    </engines>  
+
+    <!-- android --> 
+    <platform name="android">
+		<!-- Config por Android 9 to use http requests. -->
+		<edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
+            <application android:usesCleartextTraffic="true" />
+        </edit-config>
+		
+		<edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
+			<application android:allowBackup="false" />
+		</edit-config>
+    </platform> 
+</plugin>
